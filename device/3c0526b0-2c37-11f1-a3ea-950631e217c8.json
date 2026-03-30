@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : false,
+      "gateway" : true,
       "overwriteActivityTime" : false,
       "description" : "gateway gateway gateway gateway gateway gateway gateway gateway"
     },
@@ -40,7 +40,15 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1774875116724,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   },
   "calculatedFields" : [ ]
