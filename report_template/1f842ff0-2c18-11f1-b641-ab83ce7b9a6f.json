@@ -453,7 +453,10 @@
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
     "description" : "test",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "REPORT_TEMPLATE",
+      "id" : "1f842ff0-2c18-11f1-b641-ab83ce7b9a6f"
+    },
     "format" : "PDF",
     "id" : {
       "entityType" : "REPORT_TEMPLATE",
