@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "delete",
+    "title" : "zhrh",
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
@@ -10,7 +10,7 @@
       "widgets" : { },
       "states" : {
         "default" : {
-          "name" : "delete",
+          "name" : "zhrh",
           "root" : true,
           "layouts" : {
             "main" : {
@@ -50,14 +50,17 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "name" : "delete",
+    "name" : "zhrh",
     "resources" : null,
     "assignedCustomers" : null,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "919747e0-21f9-11f1-961a-6b5385e05497"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
-      "id" : "bc040700-2c37-11f1-b641-ab83ce7b9a6f"
+      "id" : "919747e0-21f9-11f1-961a-6b5385e05497"
     },
     "ownerId" : null
   },

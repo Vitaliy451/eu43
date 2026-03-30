@@ -2,9 +2,9 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : true,
+      "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : "gateway gateway gateway gateway gateway gateway gateway gateway"
+      "description" : ""
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -20,22 +20,25 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
+      "id" : "c5265c40-8424-11f0-8b96-e1473500cc6c"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "f8317330-8727-11f0-8b96-e1473500cc6c"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "3c0526b0-2c37-11f1-a3ea-950631e217c8"
+      "id" : "f8317330-8727-11f0-8b96-e1473500cc6c"
     },
-    "label" : "gateway gateway gateway gateway gateway gateway gateway gateway gateway",
-    "name" : "gateWay",
+    "label" : "",
+    "name" : "block",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Default"
   },
   "credentials" : {
-    "credentialsId" : "Z4vzaeWj4qYk9vjt8eG6",
+    "credentialsId" : "IKtJZ7lxwRyUAC6FgXfZ",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,8 +49,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1774875116724,
+      "lastUpdateTs" : 1772019785995,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1756727230247,
+      "longValue" : 1756727230247,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1756726627626,
+      "longValue" : 1756726625564,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
