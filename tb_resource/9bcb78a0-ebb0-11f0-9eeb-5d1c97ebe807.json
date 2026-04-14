@@ -1,0 +1,41 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "data" : "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnRiPSJodHRwczovL3RoaW5nc2JvYXJkLmlvL3N2ZyIgd2lkdGg9IjgwMHB4IiBoZWlnaHQ9IjgwMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiPjx0YjptZXRhZGF0YSB4bWxucz0iIj48IVtDREFUQVt7CiAgInRpdGxlIjogImFsaWVuLXN2Z3JlcG8tY29tLnN2ZyIsCiAgIndpZGdldFNpemVYIjogMSwKICAid2lkZ2V0U2l6ZVkiOiAxLAogICJ0YWdzIjogW10sCiAgImJlaGF2aW9yIjogW10sCiAgInByb3BlcnRpZXMiOiBbXQp9XV0+PC90YjptZXRhZGF0YT4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDE2TDMuNTQyMjMgMTIuMzM4M0MxLjkzMjc4IDExLjAxNjIgMSA5LjA0Mjg3IDEgNi45NjAwNUMxIDMuMTE2MTIgNC4xNTYwNyAwIDggMEMxMS44NDM5IDAgMTUgMy4xMTYxMiAxNSA2Ljk2MDA1QzE1IDkuMDQyODcgMTQuMDY3MiAxMS4wMTYyIDEyLjQ1NzggMTIuMzM4M0w4IDE2Wk0zIDZINUM2LjEwNDU3IDYgNyA2Ljg5NTQzIDcgOFY5TDMgNy41VjZaTTExIDZDOS44OTU0MyA2IDkgNi44OTU0MyA5IDhWOUwxMyA3LjVWNkgxMVoiIGZpbGw9IiMwMDAwMDAiLz4KPC9zdmc+",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 800,
+      "height" : 800,
+      "size" : 639,
+      "etag" : "ecc7070fe80454c12a038ea75479f8ae05bdd853c83069211685603b7fdfeda8",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 800,
+        "height" : 800,
+        "size" : 461,
+        "etag" : "67c9c00bbb103b2120994d8ca2685c8580e9c62bde3b123c4a0025392dd6b5be"
+      }
+    },
+    "etag" : "ecc7070fe80454c12a038ea75479f8ae05bdd853c83069211685603b7fdfeda8",
+    "externalId" : null,
+    "fileName" : "alien-svgrepo-com (1).svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "9bcb78a0-ebb0-11f0-9eeb-5d1c97ebe807"
+    },
+    "link" : "/api/images/tenant/alien-svgrepo-com (1).svg",
+    "name" : "alien-svgrepo-com (1).svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/5SassNjM5HBzNyJEkdaEcyAalILXa7MI",
+    "publicResourceKey" : "5SassNjM5HBzNyJEkdaEcyAalILXa7MI",
+    "resourceKey" : "alien-svgrepo-com (1).svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "alien-svgrepo-com (1).svg"
+  }
+}

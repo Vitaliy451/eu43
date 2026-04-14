@@ -1,0 +1,27 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : null,
+    "data" : "ZXhwb3J0IGNvbnN0IFRFU1RfU1RSSU5HID0gIkHDgMOBw4LDg8OEw4XEgMSCxITDhsOHxIzDkMSOw4jDicOKw4vEksSWxJjEmsSexKLEpMOMw43DjsOPxKrErsS2xYHDkcWDxYXDksOTw5TDlcOWw5jFjMWUxZjFmsWexaDFpMWmw5nDmsObw5zFqsWyxbTDncW4xbnFu8W9w57FisWSxpLDn8Ogw6HDosOjw6TDpcSBxIPEhcSHxI3Ej8Oow6nDqsOrxJPEl8SZxJvEn8SjxKXDrMOtw67Dr8SrxK/Et8WCw7HFhMWGw7LDs8O0w7XDtsO4xY3FlcWZxZvFn8WhxaXFp8O5w7rDu8O8xavFs8W1w73Dv8W6xbzFvsO+xYvFk+WTpuS8iuWonOWTpiI7",
+    "descriptor" : {
+      "mediaType" : "application/javascript"
+    },
+    "etag" : "e3fadc482ea6d6b0ef21ce6a3d4f090c418b60c4672d0465ac1d47ccb0257a97",
+    "externalId" : null,
+    "fileName" : "file.js",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "44dc1730-ebc3-11f0-bd9d-af1109b16d6f"
+    },
+    "link" : "/api/resource/js_module/tenant/file.js",
+    "name" : "test",
+    "preview" : null,
+    "public" : false,
+    "publicLink" : null,
+    "publicResourceKey" : null,
+    "resourceKey" : "file.js",
+    "resourceSubType" : "EXTENSION",
+    "resourceType" : "JS_MODULE",
+    "title" : "test"
+  }
+}

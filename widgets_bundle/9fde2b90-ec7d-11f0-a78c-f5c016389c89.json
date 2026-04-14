@@ -1,0 +1,22 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "small_sm_bundle",
+    "description" : "Aliquam erat volutpat. Sed lorem magna, pretium et ex sit amet, congue dapibus nisi. Nulla fringilla et.",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "9fde2b90-ec7d-11f0-a78c-f5c016389c89"
+    },
+    "image" : "tb-image;/api/images/tenant/tenant-image.svg",
+    "name" : "Small SM Bundle",
+    "order" : null,
+    "scada" : false,
+    "title" : "Small SM Bundle"
+  },
+  "fqns" : [ "ls_test_sm", "st_test_sm" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

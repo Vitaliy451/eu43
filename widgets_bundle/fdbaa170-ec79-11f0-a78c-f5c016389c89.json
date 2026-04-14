@@ -1,0 +1,22 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "bundle_sm",
+    "description" : "Praesent eleifend nec odio vitae bibendum. Sed eleifend turpis at nibh lobortis maximus. Sed ut pulvinar eros, id sollicitudin risus. Suspendisse lobortis porttitor diam eget ultrices.",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "fdbaa170-ec79-11f0-a78c-f5c016389c89"
+    },
+    "image" : "tb-image;/api/images/system/icon-images-14.jpg",
+    "name" : "Bundle SM",
+    "order" : null,
+    "scada" : false,
+    "title" : "Bundle SM"
+  },
+  "fqns" : [ "al_test_sm", "cw_test_sm", "ls_test_sm", "sm_test_ts", "st_test_sm", "ts_test_sm" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

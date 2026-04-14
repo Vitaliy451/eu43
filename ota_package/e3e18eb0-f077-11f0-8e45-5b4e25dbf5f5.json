@@ -1,0 +1,30 @@
+{
+  "entityType" : "OTA_PACKAGE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "checksum" : "ffed1d1eada35ffcbde19596c3145ac43a280a57ffdce75f07aac32688827306",
+    "checksumAlgorithm" : "SHA256",
+    "contentType" : "text/javascript",
+    "data" : "ZXhwb3J0IGNvbnN0IGNpcmNsZSA9ICcmIzExMDQ0Oyc7Cg==",
+    "dataSize" : 34,
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "462c2cc0-f077-11f0-8e45-5b4e25dbf5f5"
+    },
+    "externalId" : null,
+    "fileName" : "new_script.js",
+    "hasData" : true,
+    "id" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "e3e18eb0-f077-11f0-8e45-5b4e25dbf5f5"
+    },
+    "name" : "OTA firmware",
+    "tag" : "OTA firmware v1.3",
+    "title" : "OTA firmware",
+    "type" : "FIRMWARE",
+    "url" : null,
+    "version" : "v1.3"
+  }
+}

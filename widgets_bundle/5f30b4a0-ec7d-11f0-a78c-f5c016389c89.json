@@ -1,0 +1,22 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "sm2_bundle",
+    "description" : "Mauris id ex dolor. Nam dolor felis, gravida eu porta vitae, ultrices ac lacus. Sed mattis libero non auctor dapibus.",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "5f30b4a0-ec7d-11f0-a78c-f5c016389c89"
+    },
+    "image" : "tb-image;/api/images/tenant/3734972c6f929fe71f920339231a353a (1).jpg",
+    "name" : "SM2 Bundle",
+    "order" : null,
+    "scada" : false,
+    "title" : "SM2 Bundle"
+  },
+  "fqns" : [ "al_test_sm", "cw_test_sm", "ls_test_sm", "sm_test_ts", "st_test_sm", "ts_test_sm" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

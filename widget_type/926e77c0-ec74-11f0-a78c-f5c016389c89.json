@@ -1,0 +1,85 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "926e77c0-ec74-11f0-a78c-f5c016389c89"
+    },
+    "fqn" : "al_test_sm",
+    "name" : "AL test SM",
+    "deprecated" : false,
+    "scada" : false,
+    "descriptor" : {
+      "type" : "alarm",
+      "sizeX" : 10.5,
+      "sizeY" : 6.5,
+      "resources" : [ ],
+      "templateHtml" : "<tb-alarms-table-widget \n    [ctx]=\"ctx\">\n</tb-alarms-table-widget>",
+      "templateCss" : "",
+      "controllerScript" : {
+        "body" : "console.log(test.circle);\n\nself.onInit = function() {}\n\nself.onDataUpdated = function() {\n    self.ctx.$scope.alarmsTableWidget.onDataUpdated();\n}\n\nself.onEditModeChanged = function() {\n    self.ctx.$scope.alarmsTableWidget\n        .onEditModeChanged();\n}\n\nself.typeParameters = function() {\n    return {\n        supportsUnitConversion: true\n    };\n};\n\nself.actionSources = function() {\n    return {\n        'actionCellButton': {\n            name: 'widget-action.action-cell-button',\n            multiple: true,\n            hasShowCondition: true\n        },\n        'rowClick': {\n            name: 'widget-action.row-click',\n            multiple: false\n        },\n        'cellClick': {\n            name: 'widget-action.cell-click',\n            multiple: true\n        }\n    };\n}\n\nself.onDestroy = function() {}",
+        "modules" : {
+          "test" : "tb-resource;/api/resource/js_module/tenant/Tenant module .js"
+        }
+      },
+      "settingsForm" : [ {
+        "id" : "grsdg",
+        "name" : "bghxdt",
+        "hint" : "dfth",
+        "group" : "dfh",
+        "type" : "text",
+        "default" : "dhfdrh"
+      }, {
+        "id" : "rg",
+        "name" : "drhz",
+        "hint" : "hrd",
+        "group" : "hfrxh",
+        "type" : "image",
+        "default" : "tb-image;/api/images/system/tenant-image.svg"
+      }, {
+        "id" : "hrt",
+        "name" : "rjhryt",
+        "hint" : "ytjd",
+        "group" : "fyhjd",
+        "type" : "image",
+        "default" : "tb-image;/api/images/tenant/cat-wiggle.gif"
+      }, {
+        "id" : "jmftyy",
+        "name" : "jmtdfymk",
+        "hint" : "tyujfy",
+        "group" : "jtfy6j",
+        "type" : "javascript",
+        "default" : "var test = \"This message is from settings form\";\nconsole.log(test);"
+      } ],
+      "dataKeySettingsForm" : [ {
+        "id" : "vyuk",
+        "name" : "jcftyj",
+        "hint" : "ytdj",
+        "group" : "jyt6dj",
+        "type" : "text",
+        "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend hendrerit justo, eu varius velit suscipit vulputate. Maecenas mattis, massa ac viverra hendrerit, velit augue facilisis ex, sit amet posuere velit enim in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis arcu eu orci iaculis dignissim nec eu dui. Aenean congue quam sed orci bibendum, ac rhoncus ex auctor. Nullam a posuere dui. Pellentesque vitae urna nunc."
+      }, {
+        "id" : "kcytg",
+        "name" : "cjyyt",
+        "hint" : "cftj",
+        "group" : "rhxf",
+        "type" : "image",
+        "default" : "tb-image;/api/images/system/tenant-image.svg"
+      } ],
+      "settingsDirective" : "tb-alarms-table-widget-settings",
+      "dataKeySettingsDirective" : "tb-alarms-table-key-settings",
+      "hasBasicMode" : true,
+      "basicModeDirective" : "tb-alarms-table-basic-config",
+      "defaultConfig" : "{\"timewindow\":{\"selectedTab\":0,\"realtime\":{\"realtimeType\":0,\"timewindowMs\":2592000000}},\"showTitle\":true,\"backgroundColor\":\"rgb(255, 255, 255)\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"4px\",\"settings\":{\"enableSelection\":true,\"enableSearch\":true,\"displayDetails\":true,\"allowAcknowledgment\":true,\"allowClear\":true,\"allowAssign\":true,\"displayActivity\":true,\"displayPagination\":true,\"defaultPageSize\":10,\"defaultSortOrder\":\"-createdTime\",\"enableSelectColumnDisplay\":true,\"enableStickyAction\":false,\"enableFilter\":true,\"entitiesTitle\":null,\"alarmsTitle\":\"Alarms\"},\"title\":\"Alarms table\",\"dropShadow\":true,\"enableFullscreen\":true,\"titleStyle\":{\"fontSize\":\"16px\",\"fontWeight\":400,\"padding\":\"5px 10px 5px 10px\"},\"useDashboardTimewindow\":false,\"showLegend\":false,\"alarmSource\":{\"type\":\"function\",\"dataKeys\":[{\"name\":\"createdTime\",\"type\":\"alarm\",\"label\":\"Created time\",\"color\":\"#2196f3\",\"settings\":{\"useCellStyleFunction\":false,\"cellStyleFunction\":\"\",\"useCellContentFunction\":false,\"cellContentFunction\":\"\"},\"_hash\":0.021092237451093787},{\"name\":\"originatorDisplayName\",\"type\":\"alarm\",\"label\":\"Originator\",\"color\":\"#4caf50\",\"settings\":{\"useCellStyleFunction\":false,\"cellStyleFunction\":\"\",\"useCellContentFunction\":false,\"cellContentFunction\":\"\"},\"_hash\":0.2780007688856758},{\"name\":\"type\",\"type\":\"alarm\",\"label\":\"Type\",\"color\":\"#f44336\",\"settings\":{\"useCellStyleFunction\":false,\"cellStyleFunction\":\"\",\"useCellContentFunction\":false,\"cellContentFunction\":\"\"},\"_hash\":0.7323586880398418},{\"name\":\"severity\",\"type\":\"alarm\",\"label\":\"Severity\",\"color\":\"#ffc107\",\"settings\":{\"useCellStyleFunction\":false,\"useCellContentFunction\":false},\"_hash\":0.09927019860088193},{\"name\":\"status\",\"type\":\"alarm\",\"label\":\"Status\",\"color\":\"#607d8b\",\"settings\":{\"useCellStyleFunction\":false,\"cellStyleFunction\":\"\",\"useCellContentFunction\":false,\"cellContentFunction\":\"\"},\"_hash\":0.6588418951443418},{\"name\":\"assignee\",\"type\":\"alarm\",\"label\":\"Assignee\",\"color\":\"#9c27b0\",\"settings\":{},\"_hash\":0.5008441077416634}],\"entityAliasId\":null,\"name\":\"alarms\"},\"alarmSearchStatus\":\"ANY\",\"alarmsPollingInterval\":5,\"showTitleIcon\":false,\"titleIcon\":\"warning\",\"iconColor\":\"rgba(0, 0, 0, 0.87)\",\"iconSize\":\"24px\",\"titleTooltip\":\"\",\"widgetStyle\":{},\"displayTimewindow\":true,\"actions\":{},\"alarmStatusList\":[],\"alarmSeverityList\":[],\"alarmTypeList\":[],\"searchPropagatedAlarms\":false,\"configMode\":\"basic\",\"alarmFilterConfig\":null}"
+    },
+    "image" : "tb-image;/api/images/tenant/laugh_squint_emoticon_flat_black_white_symmetric_circle_face_outline_6921526.jpg",
+    "description" : "Maecenas rutrum risus non ultrices mollis. Fusce et vehicula libero, sit amet tincidunt quam. Etiam et vehicula quam, non placerat ipsum.",
+    "tags" : null,
+    "externalId" : null,
+    "resources" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

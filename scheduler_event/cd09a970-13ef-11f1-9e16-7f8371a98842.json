@@ -1,0 +1,42 @@
+{
+  "entityType" : "SCHEDULER_EVENT",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "msgType" : "POST_ATTRIBUTES_REQUEST",
+      "msgBody" : {
+        "key" : "123"
+      },
+      "metadata" : {
+        "scope" : "SERVER_SCOPE"
+      }
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "SCHEDULER_EVENT",
+      "id" : "cd09a970-13ef-11f1-9e16-7f8371a98842"
+    },
+    "name" : "repeat this",
+    "originatorId" : {
+      "entityType" : "DEVICE",
+      "id" : "aa1d0fe0-7919-11f0-acfd-cb50e27d53ce"
+    },
+    "ownerId" : null,
+    "schedule" : {
+      "timezone" : "Europe/Kiev",
+      "startTime" : 1772143200000,
+      "repeat" : {
+        "type" : "TIMER",
+        "endsOn" : 1772575200000,
+        "repeatInterval" : 1,
+        "timeUnit" : "HOURS"
+      }
+    },
+    "type" : "updateAttributes"
+  }
+}
